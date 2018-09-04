@@ -1,7 +1,7 @@
 
 # react-native-img-to-base64
 
-Works with image url
+Works with remote images
 
 ## Getting started
 

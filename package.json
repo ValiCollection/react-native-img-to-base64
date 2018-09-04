@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-img-to-base64",
+  "name": "rn-img-to-base64",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,8 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Alejandro Sanabria <alesanabriav@gmail.com>",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
