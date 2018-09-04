@@ -22,7 +22,7 @@
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNImgToBase64Package;` to the imports at the top of the file
+  - Add `import com.developersoul.RNImgToBase64Package;` to the imports at the top of the file
   - Add `new RNImgToBase64Package()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
@@ -47,7 +47,21 @@
 ```javascript
 import RNImgToBase64 from 'react-native-img-to-base64';
 
-// TODO: What to do with the module?
-RNImgToBase64;
+function async getBase64() {
+	const url = 'https://urltoyourimage.com/image.jpg';
+
+	const base64 = await ImgToBase64Module.convert(url);
+	console.log(base64);
+}
+
+or
+
+function getBase64() {
+	const url = 'https://urltoyourimage.com/image.jpg';
+
+	ImgToBase64Module.convert(url).then(base64 => {
+		console.log(base64);
+	});
+}
+
 ```
-  
