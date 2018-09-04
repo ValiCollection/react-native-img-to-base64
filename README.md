@@ -1,6 +1,8 @@
 
 # react-native-img-to-base64
 
+Works with image url
+
 ## Getting started
 
 `$ npm install react-native-img-to-base64 --save`
